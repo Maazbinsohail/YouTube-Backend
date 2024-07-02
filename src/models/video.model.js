@@ -5,7 +5,7 @@ import mongooseAggregatePaginate
 
 const videoSchema = new Schema(
   {
-    video: {
+    videoFile: {
       type: String,
       required: true,
     },
