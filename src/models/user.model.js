@@ -32,8 +32,8 @@ const userSchema = new Schema(
       type: String, //cloudinary use krounga yahan
       required: true,
     },
-    coverimage: {
-      tupe: String, // cloudinary url
+    coverImage: {
+      type: String, // cloudinary url
     },
     watchHistory: [
       {
